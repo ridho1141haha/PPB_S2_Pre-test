@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ridho.adzanreminder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+12-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:7:5-77
+13-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:9:5-66
+15-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:9:22-63
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\d80ec840ddf9eb58139dab3580298465\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+18        android:name="com.ridho.adzanreminder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\d80ec840ddf9eb58139dab3580298465\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\d80ec840ddf9eb58139dab3580298465\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.ridho.adzanreminder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\d80ec840ddf9eb58139dab3580298465\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\d80ec840ddf9eb58139dab3580298465\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:11:5-33:19
+24        android:allowBackup="true"
+24-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:12:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\d80ec840ddf9eb58139dab3580298465\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:13:9-43
+29        android:label="@string/app_name"
+29-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:14:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:15:9-54
+31        android:supportsRtl="true"
+31-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:16:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.AdzanReminder" >
+33-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:17:9-51
+34        <activity
+34-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:19:9-26:20
+35            android:name="com.ridho.adzanreminder.activity.MainActivity"
+35-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:20:13-50
+36            android:exported="true" >
+36-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:21:13-36
+37            <intent-filter>
+37-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:22:13-25:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:23:17-69
+38-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:23:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:24:17-77
+40-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:24:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <receiver
+44-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:28:9-31:40
+45            android:name="com.ridho.adzanreminder.broadcast.AlarmReceiver"
+45-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:29:13-52
+46            android:enabled="true"
+46-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:30:13-35
+47            android:exported="false" />
+47-->C:\LDPlayer\AdzanReminder\app\src\main\AndroidManifest.xml:31:13-37
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\f66b639a60fd82389cab8e1f83cb8aa4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\f66b639a60fd82389cab8e1f83cb8aa4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+51            android:authorities="com.ridho.adzanreminder.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\f66b639a60fd82389cab8e1f83cb8aa4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\f66b639a60fd82389cab8e1f83cb8aa4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\f66b639a60fd82389cab8e1f83cb8aa4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\f66b639a60fd82389cab8e1f83cb8aa4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\f66b639a60fd82389cab8e1f83cb8aa4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\1c1e923284f2698f36586baf6b801176\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\1c1e923284f2698f36586baf6b801176\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ThinkPad T14\.gradle\caches\8.13\transforms\1c1e923284f2698f36586baf6b801176\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>

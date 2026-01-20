@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Adzan Reminder</string>
+    <string name="pilih_kota">Pilih Kota</string>
+    <string name="memuat_data">Memuat data...</string>
+</resources>

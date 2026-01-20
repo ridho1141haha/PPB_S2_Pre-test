@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color background
+color card_background
+color on_background
+color on_primary
+color on_secondary
+color on_surface
+color primary
+color primary_variant
+color secondary
+color surface
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id jadwal_ashar
+id jadwal_dzuhur
+id jadwal_isya
+id jadwal_maghrib
+id jadwal_subuh
+id spinner_kota
+id switch_alarm
+id tv_lokasi
+id tv_nama_waktu
+id tv_tanggal
+id tv_waktu
+layout activity_main
+layout item_jadwal
+mipmap ic_launcher
+mipmap ic_launcher_round
+raw adzan
+string app_name
+string memuat_data
+string pilih_kota
+style Base.Theme.AdzanReminder
+style Theme.AdzanReminder
