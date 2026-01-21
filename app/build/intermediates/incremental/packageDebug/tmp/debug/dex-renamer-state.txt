@@ -1,4 +1,4 @@
-#Tue Jan 20 13:33:44 WIB 2026
+#Wed Jan 21 07:13:32 WIB 2026
 base.0=C\:\\LDPlayer\\AdzanReminder\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\LDPlayer\\AdzanReminder\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\LDPlayer\\AdzanReminder\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex

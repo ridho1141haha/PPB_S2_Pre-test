@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\ThinkPad T14\\.gradle\\daemon\\8.13\\com.ridho.adzanreminder.app-merged_res-4:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ThinkPad T14\\.gradle\\daemon\\8.13\\com.ridho.adzanreminder.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\ThinkPad T14\\.gradle\\daemon\\8.13\\com.ridho.adzanreminder.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\ThinkPad T14\\.gradle\\daemon\\8.13\\com.ridho.adzanreminder.app-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad T14\\.gradle\\daemon\\8.13\\com.ridho.adzanreminder.app-merged_res-4:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ThinkPad T14\\.gradle\\daemon\\8.13\\com.ridho.adzanreminder.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\ThinkPad T14\\.gradle\\daemon\\8.13\\com.ridho.adzanreminder.app-merged_res-4:\\layout_item_jadwal.xml.flat",
