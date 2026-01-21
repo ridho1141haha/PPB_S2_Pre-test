@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Adzan Static</string>
+    <string name="lokasi_placeholder">Masukkan lokasi Anda...</string>
+    <string name="save_location">Simpan Lokasi</string>
+</resources>
