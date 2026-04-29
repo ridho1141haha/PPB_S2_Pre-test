@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. NoActionBar karena kita pake custom Toolbar di layout -->
+    <style name="Base.Theme.AppBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.AppBar" parent="Base.Theme.AppBar" />
+</resources>
